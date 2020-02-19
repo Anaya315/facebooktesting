@@ -35,6 +35,12 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>3.17</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.3.2</version>
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
@@ -42,37 +48,31 @@
 			<artifactId>extentreports</artifactId>
 			<version>3.1.5</version>
 		</dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
-<dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-io</artifactId>
-    <version>1.3.2</version>
-</dependency>
 
 	</dependencies>
-	
+
 	<build>
-	<plugins>
-    
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M4</version>
-        <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>XMLFiles/testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
-         <systemPropertyVariables>
-         <applicationBrowser>${Browser}</applicationBrowser>
-         <applicationUrl>${Url}</applicationUrl>
-         </systemPropertyVariables>
-        </configuration>
-      </plugin>
-   
-</plugins>
-	
-	
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M4</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>XMLFiles/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<systemPropertyVariables>
+						<applicationBrowser>${Browser}</applicationBrowser>
+						<applicationUrl>${Url}</applicationUrl>
+					</systemPropertyVariables>
+				</configuration>
+			</plugin>
+
+		</plugins>
+
+
 	</build>
-	
-	
+
+
 </project>
