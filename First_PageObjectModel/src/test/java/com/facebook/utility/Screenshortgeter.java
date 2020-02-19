@@ -10,7 +10,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
-import org.apache.commons.*;
+
 
 public class Screenshortgeter {
 	
