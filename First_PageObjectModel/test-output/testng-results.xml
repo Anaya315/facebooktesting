@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[aplication try to launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[aplication geting launch ]]>
+    </line>
+    <line>
+      <![CDATA[aplication try to start]]>
+    </line>
+    <line>
+      <![CDATA[aplication is strat]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37247" started-at="2020-02-18T23:31:07Z" finished-at="2020-02-18T23:31:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37247" started-at="2020-02-18T23:31:07Z" finished-at="2020-02-18T23:31:45Z">
+      <class name="com.facebook.testcases.LoginTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.facebook.testcases.LoginTest@56ac3a89]" name="setupSuite" is-config="true" duration-ms="1500" started-at="2020-02-18T23:31:06Z" finished-at="2020-02-18T23:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[aplication try to launch the browser]]>
+            </line>
+            <line>
+              <![CDATA[aplication geting launch ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.facebook.testcases.LoginTest@56ac3a89]" name="setup" is-config="true" duration-ms="18333" started-at="2020-02-18T23:31:07Z" finished-at="2020-02-18T23:31:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[aplication try to start]]>
+            </line>
+            <line>
+              <![CDATA[aplication is strat]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BrowserTest()[pri:0, instance:com.facebook.testcases.LoginTest@56ac3a89]" name="BrowserTest" duration-ms="12743" started-at="2020-02-18T23:31:26Z" finished-at="2020-02-18T23:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTest -->
+        <test-method status="PASS" signature="teardownsetup(org.testng.ITestResult)[pri:0, instance:com.facebook.testcases.LoginTest@56ac3a89]" name="teardownsetup" is-config="true" duration-ms="1564" started-at="2020-02-18T23:31:38Z" finished-at="2020-02-18T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BrowserTest status=SUCCESS method=LoginTest.BrowserTest()[pri:0, instance:com.facebook.testcases.LoginTest@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownsetup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.facebook.testcases.LoginTest@56ac3a89]" name="teardown" is-config="true" duration-ms="4512" started-at="2020-02-18T23:31:40Z" finished-at="2020-02-18T23:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.facebook.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
